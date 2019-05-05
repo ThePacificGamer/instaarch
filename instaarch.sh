@@ -1,6 +1,7 @@
 #!/bin/bash
 #InstaArch Script
 
+cd
 echo "Welcome to InstaArch!"
 echo "This will only work on an existing arch enviroment that isn't chrooted into, also make sure 32-bit repos are enabled."
 #updating the system
