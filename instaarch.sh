@@ -1,7 +1,8 @@
 #!/bin/bash
 #InstaArch Script
-
+sudo pacman -S neofetch
 cd
+neofetch
 echo "Welcome to InstaArch!"
 echo "This will only work on an existing arch enviroment that isn't chrooted into, also make sure 32-bit repos are enabled."
 SLEEP 3
