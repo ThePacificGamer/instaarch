@@ -4,6 +4,10 @@
 cd
 echo "Welcome to InstaArch!"
 echo "This will only work on an existing arch enviroment that isn't chrooted into, also make sure 32-bit repos are enabled."
+SLEEP 3
+CLEAR
+echo "YOU HAVE 10 SECONDS TO CTRL+Z OUT! THIS IS YOUR LAST CHANCE!"
+sleep 10
 #updating the system
 echo "making sure Arch is up to date..."
 sudo pacman --noconfirm -Syu
@@ -13,7 +17,9 @@ git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
 cd
+clear
 echo "type yay -S <package> to use the AUR"
+sleep 3
 #installing xorg+nvidia drivers
 echo "installing XFCE and Nvidia Drivers"
 sudo pacman -S --noconfirm xorg xterm xorg-xclock xorg-twm xorg-xinit xorg-server-utils xorg-drivers nvidia nvidia-libgl lib32-nvidia-utils lib32-nvidia-libgl lib32-mesa-demos libva-vdpau-driver
