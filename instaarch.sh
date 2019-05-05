@@ -6,8 +6,8 @@ clear
 neofetch
 echo "Welcome to InstaArch!"
 echo "This will only work on an existing arch enviroment that isn't chrooted into, also make sure 32-bit repos are enabled."
-SLEEP 3
-CLEAR
+sleep 3
+clear
 echo "YOU HAVE 10 SECONDS TO CTRL+Z OUT! THIS IS YOUR LAST CHANCE!"
 sleep 10
 #updating the system
