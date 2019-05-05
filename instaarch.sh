@@ -37,4 +37,3 @@ echo "Done! Enjoy your arch install!"
 echo "Rebooting in 5 seconds..."
 sleep 5
 sudo reboot
-exit
