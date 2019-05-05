@@ -9,7 +9,7 @@ echo "making sure Arch is up to date..."
 sudo pacman --noconfirm -Syu
 #obtaining AUR
 echo "installing YAY for the AUR"
-git clone https://github.com/Jguer/yay.git
+git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
 cd
