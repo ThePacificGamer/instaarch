@@ -24,7 +24,7 @@ echo "type yay -S <package> to use the AUR"
 sleep 3
 #installing xorg+nvidia drivers
 echo "installing XFCE and Nvidia Drivers"
-sudo pacman -S --noconfirm xorg xterm xorg-xclock xorg-twm xorg-xinit xorg-server-utils xorg-drivers nvidia nvidia-libgl lib32-nvidia-utils lib32-nvidia-libgl lib32-mesa-demos libva-vdpau-driver
+sudo pacman -S xorg xterm xorg-xclock xorg-twm xorg-xinit xorg-server-utils xorg-drivers nvidia nvidia-libgl lib32-nvidia-utils lib32-nvidia-libgl lib32-mesa-demos libva-vdpau-driver
 sudo pacman -S --noconfirm xfce4 xfce4-goodies
 sleep 2
 #get that audio!
