@@ -47,7 +47,7 @@ clear
 echo "Finishing up! We are almost done!"
 sleep 2
 #finish setting stuff up
-sudo systemctl enable 
+sudo systemctl enable sddm
 sudo systemctl enable nvidia-persistenced.service
 #horray we done!
 clear
