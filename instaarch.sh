@@ -14,9 +14,10 @@ sleep 10
 echo "making sure Arch is up to date..."
 sudo pacman --noconfirm -Syu
 #obtaining AUR
-echo "installing YAY for the AUR"
-git clone https://aur.archlinux.org/yay.git
-cd yay
+echo "installing PARU for the AUR"
+sudo pacman -S --needed --noconfirm base-devel
+git clone https://aur.archlinux.org/paru.git
+cd paru
 makepkg -si
 cd
 clear
