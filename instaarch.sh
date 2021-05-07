@@ -33,8 +33,8 @@ echo "Installing audio drivers"
 sudo pacman -S --noconfirm pulseaudio pulseaudio-alsa pavucontrol xfce4-pulseaudio-plugin
 sleep 2
 #get the display manager
-echo "Installing a login manager" 
-sudo pacman -S --noconfirm lxdm
+echo "Installing a display manager" 
+sudo pacman -S --noconfirm sddm
 sleep 2
 #getting the games
 echo "getting game launchers and other stuff"
@@ -47,7 +47,7 @@ clear
 echo "Finishing up! We are almost done!"
 sleep 2
 #finish setting stuff up
-sudo systemctl enable lxdm
+sudo systemctl enable 
 sudo systemctl enable nvidia-persistenced.service
 #horray we done!
 clear
