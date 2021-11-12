@@ -24,7 +24,7 @@ clear
 echo "type paru -S <package> to use the AUR"
 sleep 3
 #installing xorg+nvidia drivers
-echo "installing XFCE and Nvidia Drivers"
+echo "installing KDE and Nvidia Drivers"
 sudo pacman -S --noconfirm xorg xterm xorg-xclock xorg-twm xorg-xinit xorg-server-utils xorg-drivers nvidia nvidia-libgl lib32-nvidia-utils lib32-nvidia-libgl lib32-mesa-demos libva-vdpau-driver
 sudo pacman -S --noconfirm plasma kde-applications-meta
 sleep 2
